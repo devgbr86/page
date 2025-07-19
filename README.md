@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"> <!-- Suporte a acentuação -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+  <title>Caffe</title> <!-- Título que aparece na aba do navegador -->
+
+  <link rel="stylesheet" href="style.css"> <!-- Link para o CSS externo (se usar) -->
+
+  <!-- Favicon (ícone da aba, opcional) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+<div style="font-size: 250%;">🔒</div>
+
+
+<div style="width: 50%;          
+      height: 2px;      
+      background-color: #800080; 
+      margin-left: 0;      
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>
+
+
+<div style="color: white;
+    font-size: 125%;">
+topverbs@gmail.com</div>
+
+
+<div style="width: 50%;          
+      height: 2px;      
+      background-color: #800080; 
+      margin-left: 0;      
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>
+
+      <div style="margin-left: 10%;">
+<a href="https://www.patreon.com/emberbox">
+<button 
+style="color: white;
+    background-color: purple;
+    font-size: 125%;
+    cursor: pointer;">patreon/emberbox</button></a>
+
+
+<br />
+<br />
+
+
+<a href="https://drive.google.com/drive/folders/10va8ouoUGKcW5uoYmZMFUi2lk1IyApXp?usp=sharing">
+<button 
+style="color: white;
+    background-color: purple;
+    font-size: 125%;
+    cursor: pointer;">Ferramentas</button></a>
+
+
+<br />
+<br />
+
+
+<a href="https://drive.google.com/drive/folders/1hYeNQ6j2aKn6y54SRZWP4AnspWZAtX8Q?usp=sharing">
+<button 
+style="color: white;
+    background-color: purple;
+    font-size: 125%;
+    cursor: pointer;">Public Domain Books</button></a>
+
+
+<br />
+<br />
+
+
+<a href="https://github.com/devgbr86/frontkit">
+<button 
+style="color: white;
+    background-color: purple;
+    font-size: 125%;
+    cursor: pointer;">github/devgbr86</button></a></div>
+
+
+<div style="width: 50%;          
+      height: 2px;      
+      background-color: #800080; 
+      margin-left: 0;      
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>
+
+
+<!-- Widget oficial Pinterest -->
+<a data-pin-do="embedUser" data-pin-scale-height="240" data-pin-scale-width="80" data-pin-board-width="400" href="https://www.pinterest.com/kaffeoverdose/"></a>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+<div>
+<p style="font-size: 110%; color: red;">pinterest.com/kaffeoverdose</p></div>
+
+
+<div style="width: 50%;          
+      height: 2px;      
+      background-color: #800080; 
+      margin-left: 0;      
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>
+
+      
+  
+  
+  
+</body>
+</html>

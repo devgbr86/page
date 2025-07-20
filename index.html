@@ -1,132 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8"> <!-- Suporte a acentuação -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
-
-  <title>Caffe</title> <!-- Título que aparece na aba do navegador -->
-
-  <link rel="stylesheet" href="style.css"> <!-- Link para o CSS externo (se usar) -->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Devliber</title> <!-- Título que aparece na aba do navegador -->
   <!-- Favicon (ícone da aba, opcional) -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+  
+  
+<style>
+  .btn {
+  display: block;
+  padding: 20px;
+  font-size: 125%;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
 
+  .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+}
 
-
-  <style>
-    body {
-      margin: 0;
-      background-color: black;
-      color: white; /* Para o texto não sumir */
-      font-family: 'Courier New', Courier, monospace;
+  body, input, textarea, select {
+	background-color: black;
+    font-family: 'Courier New', Courier, monospace;
     }
-  </style>
+</style>  
 </head>
 
 
 
 
-
-
-
-
-
+<!-- MAIN THEME HEADER BODY -->
 <body>
-<div style="font-size: 250%;">🔒</div>
-
+<div style="font-size: 250%; text-align: center;">📧</div>
 
 <div style="width: 50%;          
       height: 2px;      
       background-color: #800080; 
-      margin-left: 0;      
+margin: auto;
       margin-top: 20px;    
       margin-bottom: 20px;"></div>
-
 
 <div style="color: white;
-    font-size: 125%;">
+    font-size: 125%; text-align: center;">
 topverbs@gmail.com</div>
 
-
 <div style="width: 50%;          
-      height: 2px;      
-      background-color: #800080; 
-      margin-left: 0;      
+      height: 2px;    
+       background-color: #800080; 
+margin: auto;
       margin-top: 20px;    
-      margin-bottom: 20px;"></div>
-
-      <div style="margin-left: 10%;">
-<a href="https://www.patreon.com/emberbox">
-<button 
-style="color: white;
-    background-color: purple;
-    font-size: 125%;
-    cursor: pointer;">patreon/emberbox</button></a>
-
-
-<br />
-<br />
-
-
-<a href="https://drive.google.com/drive/folders/10va8ouoUGKcW5uoYmZMFUi2lk1IyApXp?usp=sharing">
-<button 
-style="color: white;
-    background-color: purple;
-    font-size: 125%;
-    cursor: pointer;">Ferramentas</button></a>
-
-
-<br />
-<br />
-
-
-<a href="https://drive.google.com/drive/folders/1hYeNQ6j2aKn6y54SRZWP4AnspWZAtX8Q?usp=sharing">
-<button 
-style="color: white;
-    background-color: purple;
-    font-size: 125%;
-    cursor: pointer;">Public Domain Books</button></a>
-
-
-<br />
-<br />
-
-
-<a href="https://github.com/devgbr86/frontkit">
-<button 
-style="color: white;
-    background-color: purple;
-    font-size: 125%;
-    cursor: pointer;">github/devgbr86</button></a></div>
-
-
-<div style="width: 50%;          
-      height: 2px;      
-      background-color: #800080; 
-      margin-left: 0;      
-      margin-top: 20px;    
-      margin-bottom: 20px;"></div>
-
-
-<!-- Widget oficial Pinterest -->
-<a data-pin-do="embedUser" data-pin-scale-height="240" data-pin-scale-width="80" data-pin-board-width="400" href="https://www.pinterest.com/kaffeoverdose/"></a>
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-
-<div>
-<p style="font-size: 110%; color: red;">pinterest.com/kaffeoverdose</p></div>
-
-
-<div style="width: 50%;          
-      height: 2px;      
-      background-color: #800080; 
-      margin-left: 0;      
-      margin-top: 20px;    
-      margin-bottom: 20px;"></div>
-
+      margin-bottom: 20px;"></div>  
       
-  
-  
-  
-</body>
-</html>
 
+
+
+
+<div class="container">
+  <a href="https://www.patreon.com/emberbox" class="btn">Podcast</a>
+  <a href="https://drive.google.com/drive/folders/10va8ouoUGKcW5uoYmZMFUi2lk1IyApXp?usp=sharing" class="btn">Devfront-end</a>
+  <a href="https://drive.google.com/drive/folders/1hYeNQ6j2aKn6y54SRZWP4AnspWZAtX8Q?usp=sharing" class="btn">Public Domain Books</a>
+  <a href="https://github.com/devgbr86/frontkit" class="btn">GitHub</a>
+</div>
+  
+  
+  <div style="width: 50%;          
+      height: 2px;    
+       background-color: #800080; 
+margin: auto;
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>  
+      
+      
+      
+      <!-- Widget oficial Pinterest --><div style="text-align: center;">
+<a data-pin-do="embedUser" data-pin-scale-height="240" data-pin-scale-width="80" data-pin-board-width="400" href="https://www.pinterest.com/kaffeoverdose/"></a>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script></div>
+
+
+
+
+  
+  <div style="width: 50%;          
+      height: 2px;    
+       background-color: #800080; 
+margin: auto;
+      margin-top: 20px;    
+      margin-bottom: 20px;"></div>  
+
+
+
+
+
+
+<footer><p style="font-size: 110%; color: white; text-align: center;">devliber.netlify.app</p></footer>
+</body>
+
+</html>

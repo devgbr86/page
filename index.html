@@ -1,136 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en, pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Devliber</title> 
-  <!-- Título que aparece na aba do navegador -->
-  <!-- Favicon (ícone da aba, opcional) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
-  
-  
-<style>
-  .btn {
-  display: block;
-  padding: 25px;
-  font-size: 125%;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  background-color: purple;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-}
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  .container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 5px;
-}
-
-  body, input, textarea, select {
-	background-color: black;
-    font-family: 'Courier New', Courier, monospace;
-    }
-
-
-
-</style>  
+     <link rel="stylesheet" href="style.css" />
+     <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🔒</text></svg>" />
+     <title>@liberdev</title>
 </head>
 
-
-
-
 <body>
+     <header>
+          <div class="logotype">
+               <img src="./img/logotype.png" alt="logo" class="profile" />
+               <h1></h1>
+               <p></p>
+     </header>
 
+     <nav>
+          <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">Sobre</a></li>
+               <li><a href="#contato">Contato</a></li>
+          </ul>
+     </nav>
 
+     <main>
+          <section id="home">
+               <div class="grid">
+                    <a href="https://youtube.com/@topverbs" class="link">
+                         <img width="50px" height="50px" src="./img/podcast.gif" />
+                         <p>Tutoriais</p>
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/10va8ouoUGKcW5uoYmZMFUi2lk1IyApXp?usp=sharing"
+                         class="link">
+                         <img width="50px" height="50px" src="./img/gear.gif" />
+                         <p>Ferramentas</p>
+                    </a>
+                    <a href="https://github.com/devgbr86" class="link">
+                         <img width="50px" height="50px" src="./img/git.gif" />
+                         <p>GitHub</p>
+                    </a>
+               </div>
+          </section>
 
-<!-- LOGOTYPE -->
-<!-- LOGOTYPE -->
-<!-- LOGOTYPE -->
-<div style="width: 150px; margin: 0 auto;">
-  <img 
-    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxq5dMWCEmbbBdD7APUQxNA8t3_VUZSzFA0CNgk1ESKpgVj4ANzpMv2Zikvg0lTHFAcxtbvlGlhJKRQ48peK7uk0K21YRzoKEVa9H15AHcx61sun7o8fpUqBT6EoTeEFJpdrNQ-WkC4_yWuFy85zudi84nX2b9EPijbyDpOPHovq0K0vNndYdACF3tDA/s1600-rw/Design_sem_nome_14_-removebg-preview%281%29.png"
-    alt="Logo"
-    style="width: 100%; height: auto; display: block;"
-  >
-</div>
+          <div class="divbox"></div>
 
+          <section id="about">
+               <h2>Sobre</h2>
+               <p style="text-transform: capitalize;">
+                    Desenvolvimento Frontend<br>
+                    HTML, CSS, JavaScript<br>
+                    Algoritmos e Teoria da Computação<br>
+                    Criação de Conteúdo Digital<br>
+               </p>
+          </section>
 
+          <section id="contato">
+               <h2>Contato</h2>
+               <a href="mailto:topverbs@gmail.com" class="email">topverbs@gmail.com</a>
 
-<!-- CONTATO EMAIL -->
-<!-- CONTATO EMAIL -->
-<!-- CONTATO EMAIL -->
-<div style="color: white; font-size: 125%; text-align: center;"><br>Programação Frontend<br>Tutoriais & Referências</div>
-<div style="font-size: 200%; text-align: center;">📧</div>
-<div style="color: white; font-size: 125%; text-align: center;">topverbs@gmail.com</div>
-
-
-
-
-
-
-
-<div style="width: 50%;          
-      height: 2px;    
-      background-color: #800080; 
-      margin: auto;
-      margin-top: 20px;    
-      margin-bottom: 20px;"></div>  
-      
-
-
-
-<!-- ARQUIVOS LINKS -->
-<!-- ARQUIVOS LINKS -->
-<!-- ARQUIVOS LINKS -->
-<div class="container">
-  <a href="https://www.patreon.com/emberbox" class="btn">Podcast</a>
-  <a href="https://frontpost.substack.com" class="btn">Newsletter</a>
-  <a href="https://drive.google.com/drive/folders/10va8ouoUGKcW5uoYmZMFUi2lk1IyApXp?usp=sharing" class="btn">🛠️Ferramentas</a>
-  <a href="https://github.com/devgbr86/frontkit" class="btn">🐙GitHub</a>
-
-</div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <div style="width: 50%;          
-      height: 2px;    
-      background-color: #800080; 
-      margin: auto;
-      margin-top: 20px;    
-      margin-bottom: 20px;"></div>  
-
-
-      
-
-
-
-
-    
-
-
-<!--FOOTER -->
-<!--FOOTER -->
-<!--FOOTER -->
-<footer><p style="font-size: 100%; color: white; text-align: center;">devliber.netlify.app</p></footer>
-
-
-
-
-
-
+          </section>
+     </main>
+     <div class="divbox"></div>
+     <footer>
+          <p>@liberdev</p>
+     </footer>
 </body>
+
 </html>
